@@ -30,5 +30,7 @@ public class modulo {
 		
 		System.out.println("A Divisao " +num1 + " / " +num2 + " é " +total);
 	}
+	
+	
 
 }
