@@ -1,14 +1,15 @@
 
 public class quadrilatero {
 
-	public static void area(double lado) {
+	public static double area(double lado) {
 
-		System.out.println("Area do quadrado: " + lado * lado);
+		return lado * lado;
 	}
 
-	public static void area(double lado1, double lado2) {
+	public static double area(double lado1, double lado2) {
+		
+		return lado1 * lado2;
 
-		System.out.println("Area do retangulo: " + lado1 * lado2);
 	}
 
 	public static void area(double baseMaior, double baseMenor, double altura) {

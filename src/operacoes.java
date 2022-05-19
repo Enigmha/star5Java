@@ -10,10 +10,16 @@ public class operacoes {
 		modulo.multiplcacao(25, 5);
 
 		System.out.println();
-		System.out.println("exercicio equilatero / sobrecarga");
+		System.out.println("exercicio sobrecarga / retorno");
 
-		quadrilatero.area(3);
-		quadrilatero.area(8d, 8d);
+		System.out.println("return");
+		double areaQuadrado = quadrilatero.area(3);
+		System.out.println("Area do quadrado: " + areaQuadrado);
+	
+		double areaRetangulo = quadrilatero.area(8d, 8d);
+		System.out.println("Area do retangulo: " + areaRetangulo);
+
+		System.out.println("sobrecarga");
 		quadrilatero.area(7, 8, 9);
 		quadrilatero.area(8f,8f);
 		System.out.println();
